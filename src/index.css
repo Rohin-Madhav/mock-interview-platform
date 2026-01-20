@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+/* navbar */
+
+nav{ 
+    border: 1px solid black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius:none; 
+}
+
+.trialButton{
+    background: #000;
+    color: aliceblue;
+    font-size: small;
+    padding: 10px;
+    border: none;
+    border-radius:20px ;
+    cursor: pointer;
+}
+.trialButton:hover{
+    background: #fcf9f9;
+    color: #000;
+    border: 1px solid ;
+     transition-duration:400ms;
+     
+}
